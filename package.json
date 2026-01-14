@@ -1,0 +1,27 @@
+{
+  "name": "ai-saas-backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@clerk/express": "^1.7.62",
+    "@neondatabase/serverless": "^1.0.2",
+    "axios": "^1.13.2",
+    "cloudinary": "^2.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "openai": "^6.16.0",
+    "pdf-parse": "^2.4.5",
+    "pdf-parse-new": "^2.0.0"
+  }
+}
